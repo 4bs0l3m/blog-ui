@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './assets/scss/variables.scss';
+
+#bb{
+  background-color: $primary;
+  border: $seconday;
+  color: $light;
+}
+#bb:hover{
+  background-color: $seconday;
+  border: $seconday;
+  color: $light;
+}
